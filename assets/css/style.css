@@ -8,8 +8,8 @@
 
 .navbar-inverse {
   margin-bottom: 0;
-  background-color: #191919;
   border: transparent;
+  background-color: #191919;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -34,17 +34,17 @@
 }
 
 .panel {
+  margin-bottom: 30px;
   border: none;
   background-color: #ebebeb;
-  margin-bottom: 30px;
 }
 
 .panel-info > .panel-heading {
-  color: #ffffff;
-  background-color: #df8a13;
-  border: none;
-  font-size: 1.2rem;
   letter-spacing: 0.1em;
+  color: #ffffff;
+  border: none;
+  background-color: #df8a13;
+  font-size: 1.2rem;
 }
 
 .panel-body {
@@ -52,13 +52,14 @@
   border-radius: 0 0 4px 4px;
 }
 
+.input-lg,
 .input-group-lg > .form-control {
   font-size: 0.875rem;
 }
 
 html {
-  font-size: 16px;
   overflow-y: scroll;
+  font-size: 16px;
 }
 
 body {
@@ -94,18 +95,18 @@ h2 {
 
 .header-logo__title {
   display: block;
+  margin-right: -15px;
+  letter-spacing: 0.33em;
   color: #df8a13;
   font-family: "PT Serif", serif;
   font-size: 3.5rem;
-  letter-spacing: 0.33em;
-  margin-right: -15px;
 }
 
 .header-logo__description {
   display: block;
+  letter-spacing: 0.2em;
   color: #ffffff;
   font-size: 1.15rem;
-  letter-spacing: 0.2em;
 }
 
 .left-sidebar .panel:last-of-type {
@@ -113,12 +114,34 @@ h2 {
 }
 
 .vertical-slider {
-  border-radius: 4px;
   overflow: hidden;
+  border-radius: 4px;
 }
 
 .vertical-slider img {
   width: 100%;
+}
+
+.user-login {
+  position: relative;
+}
+
+.user-login__tabs {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  border: none;
+}
+
+.user-login__tabs a {
+  padding: 14px 5px 11px !important;
+  color: #dddddd;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.user-login__tabs .active a {
+  color: #ffffff !important;
 }
 
 @media (min-width: 768px) {
