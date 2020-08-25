@@ -15,6 +15,7 @@
     }
 
     > li > a {
+      transition: background-color 0.5s;
       @include sm-min {
         border-radius: 4px;
       }
@@ -89,4 +90,8 @@
   &-group-lg > .form-control {
     font-size: 0.875rem;
   }
+}
+
+.thumbnail {
+  transition: background-color 0.5s;
 }
