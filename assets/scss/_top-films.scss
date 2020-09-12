@@ -1,0 +1,57 @@
+.top-films__body {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  .top-films__list {
+    margin-bottom: 0;
+  }
+  
+  .top-films__item {
+    margin-right: -1px;
+    margin-left: -1px;
+    padding-right: 55px;
+  
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  
+    color: $color-primary !important;
+    background-color: transparent;
+  }
+  
+  .top-films__item:first-child {
+    border-top: none;
+    border-radius: 0;
+  }
+  
+  .top-films__item:last-child {
+    border-bottom: none;
+    border-radius: 0;
+  }
+  
+  .top-films__item:hover,
+  .top-films__item:focus {
+    color: $color-light !important;
+    border-color: $color-accent;
+    background-color: $color-accent !important;
+  }
+  
+  .top-films__item:hover .badge,
+  .top-films__item:focus .badge {
+    background-color: $color-dark;
+  }
+  
+  .top-films__badge {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+  
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .top-week-item__title{
+      color: rgb(51, 51, 51);
+  }

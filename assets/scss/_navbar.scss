@@ -1,0 +1,36 @@
+.navbar-inverse {
+    margin-bottom: 0;
+  
+    border-color: transparent;
+    background-color: #191919;
+  }
+  
+  .navbar-inverse .navbar-nav > .active > a {
+    background-color: $color-primary-dark;
+  }
+  
+  .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: $color-primary-light;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a {
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover,
+  .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: $color-primary;
+  }
+  
+  .navbar-header {
+    text-align: center;
+  }
+  
+  .navbar-toggle {
+    float: none;
+  
+    margin-right: 0;
+  }
