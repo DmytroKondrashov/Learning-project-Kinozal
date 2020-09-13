@@ -525,6 +525,10 @@ h2::after {
   border-bottom: 3px solid rgba(240, 173, 79, 0.7);
 }
 
+.h3 {
+  font-family: "PT Serif", serif;
+}
+
 section {
   position: relative;
   overflow: hidden;
@@ -778,7 +782,7 @@ section {
     font-size: 2.5rem;
   }
   h3 {
-    font-size: 1.5rem;
+    display: none;
   }
   .header-logo__title {
     margin-right: -15px;
@@ -841,9 +845,6 @@ section {
   h2 {
     margin: 45px 0 30px 45px;
     font-size: 1.75rem;
-  }
-  h3 {
-    font-size: 1.25rem;
   }
   .header-logo__title {
     margin-right: -7.5px;
